@@ -99,3 +99,14 @@ WAIT SECONDS=5
 TAG POS=1 TYPE=SPAN ATTR=ID:id_n
 WAIT SECONDS=2
 TAG POS=1 TYPE=SPAN ATTR=TXT:Sign<SP>out
+
+
+
+URL GOTO=http://www.bing.com/search?q=Blue
+WAIT SECONDS=9
+URL GOTO=http://www.bing.com/search?q=Red
+WAIT SECONDS=10
+URL GOTO=http://www.bing.com/search?q=Green
+WAIT SECONDS=11
+URL GOTO=http://www.bing.com/search?q=Yellow
+WAIT SECONDS=8
